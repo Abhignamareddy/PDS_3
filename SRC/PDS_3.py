@@ -13,7 +13,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 # Read the CSV file (Corona_NLP_test.csv) containing the tweets into a DataFrame called data
-data = pd.read_csv('../data_raw/Corona_NLP_test.csv')
+data = pd.read_csv('../Dataset_raw/Corona_NLP_test.csv')
 
 # Select the 'OriginalTweet' column as the text corpus
 text_corpus = data['OriginalTweet']
@@ -56,7 +56,7 @@ wordcloud = WordCloud(width=800, height=800, background_color='white').generate_
 plt.figure(figsize=(8, 8))
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
-plt.savefig('../results/wordcloud.png')
+plt.savefig('../results/Results_Wordcloud.png')
 plt.show()
 
 
