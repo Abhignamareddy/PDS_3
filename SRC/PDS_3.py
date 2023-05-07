@@ -56,7 +56,7 @@ wordcloud = WordCloud(width=800, height=800, background_color='white').generate_
 plt.figure(figsize=(8, 8))
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
-plt.savefig('../results/Results_Wordcloud.png')
+plt.savefig('../Results/Results_Wordcloud.png')
 plt.show()
 
 
