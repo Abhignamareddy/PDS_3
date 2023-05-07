@@ -1,4 +1,4 @@
-Tweets retrieved from Twitter are included in the data file Corona_NLP_test.csv.
+Tweets retrieved from Twitter are included in the data file "Corona_NLP_test.csv".
 Utilizing the textual information included in the "OriginalTweet" column of this dataset, performed the tasks listed below:
 
 a) Create tokens from the text corpus:
