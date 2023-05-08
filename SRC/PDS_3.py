@@ -51,7 +51,7 @@ word_counts = Counter(tokens_after_stop_words_removal)
 # d) Generate a word cloud from the token frequencies
 # Create a WordCloud object with a white background.
 # Generate the word cloud visualization from the word frequencies using generate_from_frequencies().
-wordcloud = WordCloud(width=800, height=800, background_color='white').generate_from_frequencies(word_counts)
+wordcloud = WordCloud(width=800, height=800, background_color='white', colormap='rainbow').generate_from_frequencies(word_counts)
 # Plot the word cloud
 plt.figure(figsize=(8, 8))
 plt.imshow(wordcloud, interpolation='bilinear')
